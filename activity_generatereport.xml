@@ -1,0 +1,810 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context="com.example.dell.attendancesystem.generatereport">
+    <ScrollView
+        android:id="@+id/layout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:scrollbars="none"
+        >
+
+    <HorizontalScrollView
+        android:id="@+id/scroll"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TableLayout
+            android:id="@+id/tl"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TableRow
+                android:layout_width="700dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/usn"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:text="USN" />
+
+                <TextView
+                    android:id="@+id/a1"
+                    android:layout_width="80dp"
+                    android:layout_height="70dp"
+                    android:gravity="center"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/a55"
+                    android:layout_width="80dp"
+                    android:layout_height="70dp"
+                    android:gravity="center"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/a2"
+                    android:layout_width="80dp"
+                    android:layout_height="70dp"
+                    android:gravity="center"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/a56"
+                    android:layout_width="80dp"
+                    android:layout_height="70dp"
+                    android:gravity="center"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/a3"
+                    android:layout_width="80dp"
+                    android:layout_height="70dp"
+                  android:gravity="center"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/a57"
+                    android:layout_width="80dp"
+                    android:layout_height="70dp"
+                    android:gravity="center"
+                    android:text="" />
+                <TextView
+                    android:id="@+id/a4"
+                    android:layout_width="80dp"
+                    android:layout_height="70dp"
+                    android:gravity="center"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/a58"
+                    android:layout_width="80dp"
+                    android:layout_height="70dp"
+                    android:gravity="center"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/a5"
+                    android:layout_width="80dp"
+                    android:layout_height="70dp"
+                    android:gravity="center"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/a59"
+                    android:layout_width="80dp"
+                    android:layout_height="70dp"
+                    android:gravity="center"
+                    android:text="" />
+                <TextView
+                    android:id="@+id/a6"
+                    android:layout_width="80dp"
+                    android:layout_height="70dp"
+                    android:gravity="center"
+                    android:text="" />
+                <TextView
+                    android:id="@+id/a60"
+                    android:layout_width="80dp"
+                    android:layout_height="70dp"
+                    android:gravity="center"
+                    android:text="" />
+
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="700dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/usn1"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/a7"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text="Attended"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/a8"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text="Total"
+                    android:textSize="12sp" />
+
+
+
+                <TextView
+                    android:id="@+id/a9"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text="Attended"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/a10"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text="Total"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/a11"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:padding="10dp"
+                    android:text="Attended"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/a12"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:padding="10dp"
+                    android:text="Total"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/a13"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text="Attended"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/a14"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text="Total"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/a15"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:padding="10dp"
+                    android:text="Attended"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/a16"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text="Total"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/a17"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text="Attended"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/a18"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text="Total"
+                    android:textSize="12sp" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="700dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/usn2"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/a19"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/a20"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/a21"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/a22"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/a23"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/a24"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/a25"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/a26"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:text=""
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/a27"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/a28"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/a29"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/a30"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:textSize="12sp" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="700dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/usn3"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/a31"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/a32"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/a33"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/a34"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:text=""
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/a35"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/a36"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/a37"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/a38"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/a39"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/a40"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/a41"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/a42"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:textSize="12sp" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="700dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/usn4"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/a43"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/a44"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/a45"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/a46"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/a47"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/a48"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/a49"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/a50"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/a51"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/a52"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/a53"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/a54"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:textSize="12sp" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="700dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/usn5"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/a61"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/a62"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/a63"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/a64"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/a65"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/a66"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/a67"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/a68"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/a69"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/a70"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/a71"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/a72"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:textSize="12sp" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="700dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/usn6"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/a73"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/a74"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/a75"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/a76"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/a77"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/a78"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/a79"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/a80"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/a81"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/a82"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/a83"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/a84"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:textSize="12sp" />
+
+
+            </TableRow>
+            <TableRow
+                android:layout_width="700dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/usn7"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/a85"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/a86"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/a87"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/a88"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/a89"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/a90"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/a91"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/a92"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/a93"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/a94"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/a95"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/a96"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:textSize="12sp" />
+
+
+            </TableRow>
+
+        </TableLayout>
+    </HorizontalScrollView>
+    </ScrollView>
+
+</LinearLayout>

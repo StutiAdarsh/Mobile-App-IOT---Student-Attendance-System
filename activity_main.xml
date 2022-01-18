@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context="com.example.dell.attendancesystem.MainActivity">
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Student "
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
+         />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Attendance"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textColor="@color/yellow"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="System"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="390dp"
+        android:layout_height="250dp"
+        android:src="@drawable/silra" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Developed By"
+        android:textSize="15sp"/>
+    <TextView
+        android:id="@+id/nam1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sapthami G Prabhu"
+        android:textSize="15sp"/>
+    <TextView
+        android:id="@+id/nam2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stuti Adarsh"
+        android:textSize="15sp"/>
+    <TextView
+        android:id="@+id/nam3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gauthami N"
+        android:textSize="15sp"/>
+    <TextView
+        android:id="@+id/nam4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pavitra G Revankar"
+        android:textSize="15sp"/>
+    <TextView
+        android:id="@+id/nam5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="In co-ordinance with JNNCE"
+        android:textSize="15sp"/>
+</LinearLayout>

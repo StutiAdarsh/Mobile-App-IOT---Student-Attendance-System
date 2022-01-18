@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/peach"
+    android:orientation="vertical"
+    tools:context="com.example.dell.attendancesystem.student">
+
+    <TextView
+        android:id="@+id/stud"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:layout_margin="50dp"
+        android:text="STUDENT ACTIVITY"
+        android:layout_gravity="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHighlight="@color/colorPrimaryDark"
+        android:shadowColor="@color/colorMeroon"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/enter"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:text="Enter the USN"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        android:textAlignment="center"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/usn"
+        android:layout_width="280dp"
+        android:layout_gravity="center"
+        android:maxLength="10"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"/>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:layout_gravity="center"
+        android:background="@android:drawable/button_onoff_indicator_on"
+        android:text="SUBMIT" />
+</LinearLayout>

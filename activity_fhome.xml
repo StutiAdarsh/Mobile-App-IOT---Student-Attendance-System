@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dell.attendancesystem.fhome"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/fac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Faculty home page"
+        android:layout_gravity="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        />
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/dept"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Dept"
+            android:textSize="20sp" />
+
+    <Spinner
+        android:id="@+id/SP"
+        android:layout_width="200dp"
+        android:layout_gravity="right"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:drawSelectorOnTop="true"
+       ></Spinner>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+    <TextView
+        android:id="@+id/sem"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sem"
+        android:textSize="20dp"
+  />
+
+    <Spinner
+        android:id="@+id/simple"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="center"
+        android:drawSelectorOnTop="true"
+     ></Spinner>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+    <TextView
+        android:id="@+id/sec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_gravity="center"
+        android:text="Sec"
+        android:textSize="20dp"
+      />
+
+    <Spinner
+        android:id="@+id/simple1"
+        android:layout_width="200dp"
+        android:layout_gravity="center"
+        android:layout_alignParentRight="true"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+   ></Spinner>
+
+    </RelativeLayout>
+    <EditText
+        android:id="@+id/subject"
+        android:hint="Enter subject code"
+        android:maxLength="7"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+    />
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+    <TextView
+        android:id="@+id/year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_gravity="center"
+        android:text="Year"
+        android:textSize="20dp"
+        />
+    <Spinner
+        android:id="@+id/simple2"
+        android:layout_width="200dp"
+        android:layout_gravity="center"
+        android:layout_alignParentRight="true"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+     ></Spinner>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+    <TextView
+        android:id="@+id/month"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_gravity="center"
+        android:text="Month"
+        android:textSize="20dp"
+        />
+    <Spinner
+        android:id="@+id/simple3"
+        android:layout_width="200dp"
+        android:layout_gravity="center"
+        android:layout_alignParentRight="true"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+      ></Spinner>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+    <TextView
+        android:id="@+id/day"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_alignParentLeft="true"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:textSize="20dp"
+        />
+
+    <Spinner
+        android:id="@+id/simple4"
+        android:layout_width="200dp"
+        android:layout_gravity="center"
+        android:layout_alignParentRight="true"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+       ></Spinner>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/ss"
+        android:text="Click to see student present"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/ss1"
+        android:text="Modify attendance"
+        android:layout_gravity="left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/lo"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="10dp"
+        android:text="Logout"
+        android:layout_gravity="right"/>
+
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.dell.attendancesystem.registration">
+<ImageView
+    android:id="@+id/ad"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:src="@drawable/admin"/>
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_marginHorizontal="@dimen/activity_horizontal_margin"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/button_onoff_indicator_off"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:text="ADMIN" />
+
+    <ImageView
+        android:id="@+id/fc"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/faculty"/>
+
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:background="@android:drawable/button_onoff_indicator_off"
+        android:text="FACULTY" />
+
+    <ImageView
+        android:id="@+id/st"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/student"/>
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@android:drawable/button_onoff_indicator_off"
+        android:ems="10"
+        android:text="STUDENT" />
+
+
+</LinearLayout>
