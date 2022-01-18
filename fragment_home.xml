@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/homepg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="Admin Home Page"
+        android:textAlignment="center"
+        android:textColor="@color/red"
+        />
+
+
+    <EditText
+        android:layout_margin="15dp"
+        android:id="@+id/usnentry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLength="10"
+        android:ems="10"
+        android:hint="Enter student USN"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/date"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="100dp"
+        android:background="@color/red"
+        android:text="DATE"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+
+    <Button
+        android:id="@+id/usn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/red"
+        android:text="USN"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/dept"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dept"
+        android:textSize="20dp"
+        android:visibility="gone" />
+
+    <Spinner
+        android:id="@+id/SP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        android:visibility="gone"></Spinner>
+
+    <TextView
+        android:id="@+id/sem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sem"
+        android:textSize="20dp"
+        android:visibility="gone" />
+
+    <Spinner
+        android:id="@+id/simple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        android:visibility="gone"></Spinner>
+
+    <TextView
+        android:id="@+id/sec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sec"
+        android:textSize="20dp"
+        android:visibility="gone" />
+
+    <Spinner
+        android:id="@+id/simple1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        android:visibility="gone"></Spinner>
+
+
+    <EditText
+        android:id="@+id/subject"
+        android:hint="Enter subject code"
+        android:maxLength="7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <!--<TextView-->
+        <!--android:id="@+id/selected"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text=""-->
+        <!--android:visibility="gone"/>-->
+    <!--<EditText-->
+        <!--android:id="@+id/dt"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:clickable="true"-->
+        <!--android:editable="false"-->
+        <!--android:hint="date"-->
+        <!--android:visibility="gone"/>-->
+    <TextView
+        android:id="@+id/year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Year"
+        android:textSize="20dp"
+        android:visibility="gone"
+        />
+    <Spinner
+        android:id="@+id/simple2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        android:visibility="gone"
+        ></Spinner>
+
+    <TextView
+        android:id="@+id/month"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Month"
+        android:textSize="20dp"
+        android:visibility="gone"
+        />
+    <Spinner
+        android:id="@+id/simple3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        android:visibility="gone"
+        ></Spinner>
+    <TextView
+        android:id="@+id/day"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:textSize="20dp"
+        android:visibility="gone"
+        />
+
+    <Spinner
+        android:id="@+id/simple4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        android:visibility="gone"
+        ></Spinner>
+
+    <Button
+        android:id="@+id/view1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/red"
+        android:text="Submit"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/view2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/red"
+        android:text="Student present"
+        android:visibility="gone" />
+
+
+</LinearLayout>
